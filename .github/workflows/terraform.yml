@@ -45,6 +45,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ghpat }}
           TF_VAR_tenant_id: ${{ secrets.TENANTID}}
-          TF_VAR_subsription_id: ${{ secrets.SUBSCRIPTIONID}}
+          TF_VAR_subscription_id: ${{ secrets.SUBSCRIPTIONID}}
           TF_VAR_client_id: ${{ secrets.CLIENTID}}
           TF_VAR_client_secret: ${{ secrets.CLIENTSECRET}}
